@@ -1,0 +1,47 @@
+//Voidstone furnace melts impure xyvloid into xyvliquid
+{
+  "type": "GenericCrafter",
+  "localizedName": "Voidstone furnace",
+  "description": "Melts impure xyvloid and seperate voidstone from it, resulting in xyvliquid and voidstone byproduct.",
+  "outputItem": {
+  "liquid": [
+    "liquid": "xyvliquid",
+    "amount": 40
+  ],
+  "items":[
+    "items": "Voidstone/1",
+  ]
+  {
+  "health": 900,
+  "itemCapacity": 40,
+  "liquidCapacity": 40,
+  "size": 2,
+  "craftTime": 300,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "items": {
+  	"items": [
+  	"impure-xyvloid/10",
+  	"coal/5"
+  	]
+  }
+  },
+  "requirements": [
+	  {"item": "copper", "amount": 300},
+	  {"item": "graphite", "amount": 200},
+	  {"item": "metaglass", "amount": 75}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "Void-harvester",
+    "requirements": [
+      {"item": "lead", "amount": 4000},
+	    {"item": "copper", "amount": 4000},
+      {"item": "graphite", "amount": 2000},
+      {"item": "silicon", "amount": 1250}
+      {"item": "titanium", "amount": 750}
+    ]
+  }
+}
