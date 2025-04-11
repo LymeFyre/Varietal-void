@@ -1,0 +1,39 @@
+//Synthesizes Xyvloid plates from Xyvliquid and cryofluid
+{
+  "type": "GenericCrafter",
+  "localizedName": "Vxyloid Synthesizer",
+  "description": "Shapes Xyvliquid to hardened, dense plates. Requires cryofluid.",
+  "outputItem": "Xyvloid-plate/2",
+  "health": 1000,
+  "itemCapacity": 40,
+  "liquidCapacity": 40,
+  "size": 2,
+  "craftTime": 150,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "liquid": {
+  	"liquid": [
+  		"vxyliquid/20",
+  		"cryofluid/15",
+  }
+  },
+  "requirements": [
+	  {"item": "lead", "amount": 400},
+	  {"item": "silicon", "amount": 150},
+	  {"item": "metaglass", "amount": 100},
+	  {"item": "plastanium", "amount": 75}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "Void-furnace",
+    "requirements": [
+      {"item": "lead", "amount": 4000},
+	    {"item": "copper", "amount": 4000},
+      {"item": "graphite", "amount": 2000},
+      {"item": "silicon", "amount": 1250}
+      {"item": "titanium", "amount": 750}
+    ]
+  }
+}
