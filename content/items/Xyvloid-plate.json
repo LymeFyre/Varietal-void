@@ -1,0 +1,11 @@
+//Heavily processed, incredibly tough material from the void
+{
+  "name": "Xyvloid plate",
+  "description": "Material harvested from the void with immense durability that went through intense processes",
+  "cost": 2.5,
+  "color": "798bdb",
+  "hardness": 10,
+   "research": {
+    "parent": "xyvliquid"
+  }
+}
