@@ -1,0 +1,11 @@
+//Voidstone is a mysterious, dense material that can be used raw
+{
+  "name": "Voidstone",
+  "description": "Mysterious element from the void",
+  "cost": 1.4,
+  "color": "303138",
+  "hardness": 5,
+   "research": {
+    "parent": "titanium"
+  }
+}
