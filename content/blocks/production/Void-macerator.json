@@ -1,0 +1,36 @@
+//Crushes voidstone into impure xyvloids, water can be used to boost speed
+{
+  "type": "GenericCrafter",
+  "localizedName": "Void macerator",
+  "description": "Breaks down voidstone into impure xyzloids.",
+  "outputItem": "impure-xyvloid/5",
+  "health": 700,
+  "itemCapacity": 40,
+  "liquidCapacity": 40,
+  "size": 2,
+  "craftTime": 120,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "items": {
+  	"items": "voidstone/3",
+  }
+  },
+  "requirements": [
+	  {"item": "copper", "amount": 300},
+	  {"item": "graphite", "amount": 200},
+	  {"item": "metaglass", "amount": 75}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "Void-harvester",
+    "requirements": [
+      {"item": "lead", "amount": 4000},
+	    {"item": "copper", "amount": 4000},
+      {"item": "graphite", "amount": 2000},
+      {"item": "silicon", "amount": 1250}
+      {"item": "titanium", "amount": 750}
+    ]
+  }
+}
