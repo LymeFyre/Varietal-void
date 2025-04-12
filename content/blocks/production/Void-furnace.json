@@ -1,4 +1,3 @@
-//Voidstone furnace melts impure xyvloid into xyvliquid
 {
   "type": "GenericCrafter",
   "localizedName": "Voidstone furnace",
