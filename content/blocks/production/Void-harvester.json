@@ -1,4 +1,3 @@
-//Generates voidstone, requires oil as fuel
 {
   "type": "GenericCrafter",
   "localizedName": "Void harvester",
