@@ -16,6 +16,7 @@
   	"liquid": [
   		"vxyliquid/20",
   		"cryofluid/15",
+	  ]
   }
   },
   "requirements": [
