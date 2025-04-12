@@ -8,9 +8,9 @@
     "amount": 40
   ],
   "items":[
-    "items": "Voidstone/1",
+    "items": "voidstone/1",
   ]
-  {
+	}
   "health": 900,
   "itemCapacity": 40,
   "liquidCapacity": 40,
