@@ -1,8 +1,7 @@
-//Crushes voidstone into impure xyvloids, water can be used to boost speed
 {
   "type": "GenericCrafter",
   "localizedName": "Void macerator",
-  "description": "Breaks down voidstone into impure xyzloids.",
+  "description": "Breaks down voidstone into impure xyvloids.",
   "outputItem": "impure-xyvloid/5",
   "health": 700,
   "itemCapacity": 40,
