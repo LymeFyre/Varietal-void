@@ -13,7 +13,9 @@
   "updateEffect": "smeltsmoke",
   "consumes": {
   "items": {
-  	"items": "voidstone/3",
+  	"items": [
+		"voidstone/3",
+	]
   }
   },
   "requirements": [
