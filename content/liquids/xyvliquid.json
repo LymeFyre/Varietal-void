@@ -1,4 +1,3 @@
-//created from xyvloid
 {
   "name": "xyvliquid",
   "description": "Melted xyvloid used for further processing",
@@ -7,7 +6,7 @@
   "explosiveness": 0.0,
   "viscosity": 0.2,
   "temperature": 1.0,
-  "color": "#ff4400",
+  "color": "798bdb",
    "research": {
    	"parent": "impure-xyvloid"
    }
