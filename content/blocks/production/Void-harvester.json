@@ -1,13 +1,16 @@
 {
   "type": "GenericCrafter",
   "localizedName": "Void harvester",
-  "description": "Outputs mysterious Voidstones from the Void. Requires large amounts of oil as fuel",
+  "description": "Outputs mysterious Voidstones from the Void. Requires large amounts of oil as fuel. Can not be boosted by overdrive",
   "outputItem": "Voidstone/2",
   "health": 800,
   "itemCapacity": 40,
   "liquidCapacity": 40,
   "size": 2,
   "craftTime": 600,
+	"forceDark": true,
+	"canOverdrive": false,
+	"buildCostMultiplier": 3
   "hasLiquids": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
@@ -22,7 +25,7 @@
 	  {"item": "lead", "amount": 800},
 	  {"item": "graphite", "amount": 300},
 	  {"item": "silicon", "amount": 250},
-	  {"item": "titanium", "amount": 250}
+	  {"item": "titanium", "amount": 200}
   ],
   "category": "crafting",
     "research": {
