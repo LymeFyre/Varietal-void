@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "localizedName": "Void macerator",
   "description": "Breaks down voidstone into impure xyvloids.",
-  "outputItem": "impure-xyvloid/5",
+  "outputItem": "Impure-xyvloid/5",
   "health": 700,
   "itemCapacity": 40,
   "liquidCapacity": 40,
@@ -14,7 +14,7 @@
   "consumes": {
   "items": {
   	"items": [
-		"voidstone/3",
+		"Voidstone/3",
 	]
   }
   },
