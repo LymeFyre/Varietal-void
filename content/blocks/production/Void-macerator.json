@@ -5,10 +5,8 @@
   "outputItem": "Impure-xyvloid/3",
   "health": 700,
   "itemCapacity": 40,
-  "liquidCapacity": 40,
   "size": 2,
   "craftTime": 300,
-  "hasLiquids": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
@@ -19,7 +17,7 @@
   }
   },
   "requirements": [
-	  {"item": "copper", "amount": 300},
+	  {"item": "copper", "amount": 200},
 	  {"item": "graphite", "amount": 200},
 	  {"item": "metaglass", "amount": 75}
   ],
