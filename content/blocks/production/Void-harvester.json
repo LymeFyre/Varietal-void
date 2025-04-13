@@ -8,9 +8,9 @@
   "liquidCapacity": 40,
   "size": 2,
   "craftTime": 600,
-	"forceDark": true,
-	"canOverdrive": false,
-	"buildCostMultiplier": 3
+  "forceDark": true,
+  "canOverdrive": false,
+  "buildCostMultiplier": 3,
   "hasLiquids": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
