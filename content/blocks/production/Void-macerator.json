@@ -19,7 +19,8 @@
   "requirements": [
 	  {"item": "copper", "amount": 200},
 	  {"item": "graphite", "amount": 200},
-	  {"item": "metaglass", "amount": 75}
+	  {"item": "metaglass", "amount": 75},
+	  {"item": "titanium", "amount": 25}
   ],
   "category": "crafting",
     "research": {
