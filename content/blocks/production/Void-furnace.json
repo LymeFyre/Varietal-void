@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "localizedName": "Voidstone furnace",
   "description": "Melts impure xyvloid and seperate voidstone from it, resulting in xyvliquid and voidstone byproduct.",
-  "outputLiquid": "xyvliquid/10"
+  "outputLiquid": "xyvliquid/1.2"
   "health": 900,
   "itemCapacity": 40,
   "liquidCapacity": 40,
@@ -14,7 +14,7 @@
   "consumes": {
   "items": {
   	"items": [
-  	"Impure-xyvloid/1.2",
+  	"Impure-xyvloid/6",
   	"coal/3"
   	]
   }
