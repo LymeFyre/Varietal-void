@@ -14,7 +14,7 @@
   "consumes": {
   "liquids": {
   	"liquids": [
-  		"xyvliquid/2.4",
+  		"Xyvliquid/2.4",
   		"cryofluid/0.5",
 	  ]
   }
