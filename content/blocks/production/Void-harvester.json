@@ -2,12 +2,13 @@
   "type": "GenericCrafter",
   "localizedName": "Void harvester",
   "description": "Outputs mysterious Voidstones from the Void. Requires large amounts of oil as fuel. Can not be boosted by overdrive",
-  "outputItem": "Voidstone/2",
+  "outputItem": "Voidstone/4",
   "health": 800,
   "itemCapacity": 40,
   "liquidCapacity": 40,
   "size": 2,
-  "craftTime": 600,
+  "craftTime": 300,
+	"buildCostMultiplier": 0.75,
   "forceDark": true,
   "canOverdrive": false,
   "buildCostMultiplier": 0.35,
@@ -17,25 +18,25 @@
   "consumes": {
   "liquid": {
   	"liquid": "oil",
-  	"amount": 0.2,
+  	"amount": 0.24,
     }
   },
   "requirements": [
-	  {"item": "copper", "amount": 800},
-	  {"item": "lead", "amount": 800},
-	  {"item": "graphite", "amount": 300},
-	  {"item": "silicon", "amount": 250},
-	  {"item": "titanium", "amount": 100}
+	  {"item": "copper", "amount": 150},
+	  {"item": "lead", "amount": 120},
+	  {"item": "graphite", "amount": 100},
+	  {"item": "silicon", "amount": 75},
+	  {"item": "titanium", "amount": 25}
   ],
   "category": "crafting",
     "research": {
     "parent": "kiln",
     "requirements": [
-      {"item": "lead", "amount": 4000},
-	  {"item": "copper", "amount": 4000},
-      {"item": "graphite", "amount": 2000},
-      {"item": "silicon", "amount": 1250}
-      {"item": "titanium", "amount": 750}
+      {"item": "copper", "amount": 3000},
+			{"item": "lead", "amount": 3000},
+      {"item": "graphite", "amount": 1500},
+      {"item": "silicon", "amount": 1000}
+      {"item": "titanium", "amount": 500}
     ]
   }
 }
