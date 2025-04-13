@@ -2,24 +2,24 @@
   "type": "GenericCrafter",
   "localizedName": "Void harvester",
   "description": "Outputs mysterious Voidstones from the Void. Requires large amounts of oil as fuel",
-  "outputItem": "Voidstone/1",
+  "outputItem": "Voidstone/2",
   "health": 800,
   "itemCapacity": 40,
   "liquidCapacity": 40,
   "size": 2,
-  "craftTime": 120,
+  "craftTime": 600,
   "hasLiquids": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
   "liquid": {
   	"liquid": "oil",
-  	"amount": 10,
+  	"amount": 0.2,
     }
   },
   "requirements": [
-	  {"item": "copper", "amount": 500},
-	  {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 800},
+	  {"item": "lead", "amount": 800},
 	  {"item": "graphite", "amount": 300},
 	  {"item": "silicon", "amount": 250},
 	  {"item": "titanium", "amount": 250}
