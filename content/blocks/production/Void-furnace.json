@@ -8,6 +8,7 @@
   "liquidCapacity": 40,
   "size": 2,
   "craftTime": 300,
+	"buildCostMultiplier": 1.4,
   "hasLiquids": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
@@ -20,10 +21,11 @@
   }
   },
   "requirements": [
-	  {"item": "lead", "amount": 300},
-	  {"item": "silicon", "amount": 200},
+	  {"item": "lead", "amount": 400},
+	  {"item": "silicon", "amount": 150},
 	  {"item": "metaglass", "amount": 75},
-		{"item": "titanium", "amount": 25}
+		{"item": "titanium", "amount": 50},
+		{"item": "Voidstone", "amount": 20}
   ],
   "category": "crafting",
     "research": {
