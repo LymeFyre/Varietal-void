@@ -12,8 +12,8 @@
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "liquid": {
-  	"liquid": [
+  "liquids": {
+  	"liquids": [
   		"vxyliquid/20",
   		"cryofluid/15",
 	  ]
