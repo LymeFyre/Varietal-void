@@ -10,7 +10,7 @@
   "craftTime": 600,
   "forceDark": true,
   "canOverdrive": false,
-  "buildCostMultiplier": 3,
+  "buildCostMultiplier": 0.35,
   "hasLiquids": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
@@ -25,7 +25,7 @@
 	  {"item": "lead", "amount": 800},
 	  {"item": "graphite", "amount": 300},
 	  {"item": "silicon", "amount": 250},
-	  {"item": "titanium", "amount": 200}
+	  {"item": "titanium", "amount": 100}
   ],
   "category": "crafting",
     "research": {
