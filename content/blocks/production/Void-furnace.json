@@ -4,13 +4,13 @@
   "description": "Melts impure xyvloid and seperate voidstone from it, resulting in xyvliquid and voidstone byproduct.",
   "outputItem": {
   "liquid": [
-    "liquid": "xyvliquid",
+    "liquid": "Xyvliquid",
     "amount": 40
   ],
   "items": [
-    "items": "voidstone/1",
+    "items": "Voidstone/1",
   ]
-	}
+	},
   "health": 900,
   "itemCapacity": 40,
   "liquidCapacity": 40,
