@@ -2,20 +2,20 @@
   "type": "GenericCrafter",
   "localizedName": "Vxyloid Synthesizer",
   "description": "Shapes Xyvliquid to hardened, dense plates. Requires cryofluid.",
-  "outputItem": "Xyvloid-plate/2",
+  "outputItem": "Xyvloid-plate/3",
   "health": 1000,
   "itemCapacity": 40,
   "liquidCapacity": 40,
-  "size": 2,
-  "craftTime": 150,
+  "size": 3,
+  "craftTime": 180,
   "hasLiquids": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
   "liquids": {
   	"liquids": [
-  		"xyvliquid/20",
-  		"cryofluid/15",
+  		"xyvliquid/1.2",
+  		"cryofluid/0.4",
 	  ]
   }
   },
