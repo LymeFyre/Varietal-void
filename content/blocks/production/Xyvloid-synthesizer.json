@@ -7,15 +7,15 @@
   "itemCapacity": 40,
   "liquidCapacity": 40,
   "size": 3,
-  "craftTime": 100,
+  "craftTime": 300,
   "hasLiquids": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
   "liquids": {
   	"liquids": [
-  		"Xyvliquid/0.5",
-  		"cryofluid/0.2",
+  		"Xyvliquid/4.8",
+  		"cryofluid/0.15",
 	  ]
   }
   },
