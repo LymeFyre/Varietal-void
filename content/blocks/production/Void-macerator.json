@@ -2,18 +2,18 @@
   "type": "GenericCrafter",
   "localizedName": "Void macerator",
   "description": "Breaks down voidstone into impure xyvloids.",
-  "outputItem": "Impure-xyvloid/1",
+  "outputItem": "Impure-xyvloid/4",
   "health": 700,
   "itemCapacity": 40,
   "size": 2,
-  "craftTime": 200,
+  "craftTime": 60,
 	"buildingCostMultiplier": 1.2,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
   "items": {
   	"items": [
-		"Voidstone/2",
+		"Voidstone/1",
 	]
   }
   },
