@@ -7,7 +7,7 @@
   "itemCapacity": 40,
   "liquidCapacity": 40,
   "size": 2,
-  "craftTime": 300,
+  "craftTime": 600,
 	"buildCostMultiplier": 0.7,
   "forceDark": true,
   "canOverdrive": false,
