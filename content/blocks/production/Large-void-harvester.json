@@ -6,7 +6,7 @@
   "health": 1350,
   "itemCapacity": 40,
   "size": 3,
-  "craftTime": 180,
+  "craftTime": 150,
   "forceDark": true,
   "hasLiquids": true,
   "hasItems": true,
@@ -16,7 +16,7 @@
 	"power": 2.5,
   "liquid": {
   	"liquid": "oil",
-  	"amount": 0.12,
+  	"amount": 0.09,
     }
   },
   "requirements": [
