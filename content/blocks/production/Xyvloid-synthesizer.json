@@ -15,7 +15,7 @@
 	"power": 2,
   "liquids": {
   	"liquids": [
-  		"Xyvliquid/0.12",
+  		"Xyvliquid/0.24",
   		"cryofluid/0.04",
 	  ]
   }
