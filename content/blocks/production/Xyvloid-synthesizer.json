@@ -33,11 +33,7 @@
     "research": {
     "parent": "Void-furnace",
     "requirements": [
-      {"item": "lead", "amount": 4000},
-      {"item": "copper", "amount": 4000},
-      {"item": "graphite", "amount": 2000},
-      {"item": "silicon", "amount": 1250},
-      {"item": "titanium", "amount": 750}
+      {"item": "Research-points", "amount": 1000}
     ]
   }
 }
