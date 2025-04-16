@@ -1,0 +1,35 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Research station",
+  "description": "Scans voidstones for research points. Can not be boosted by overdrive",
+  "outputItem": "Research-points/40",
+  "health": 1800,
+  "itemCapacity": 40,
+  "size": 3,
+  "craftTime": 180,
+  "buildCostMultiplier": 0.5,
+  "canOverdrive": false,
+  "hasItems": true,
+  "hasPower": true,
+  "consumes": {
+  "power": 2,
+  "items": {
+  	"items": [
+  	  "Voidstone/3"
+  	]
+  },
+  "requirements": [
+	  {"item": "lead", "amount": 750},
+	  {"item": "graphite", "amount": 200},
+	  {"item": "titanium", "amount": 50}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "Void-harvester",
+    "requirements": [
+	    {"item": "lead", "amount": 2500},
+      {"item": "graphite", "amount": 1500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+  }
