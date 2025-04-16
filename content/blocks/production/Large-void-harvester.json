@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Large void harvester",
+  "description": "Outputs mysterious Voidstones from the Void at a faster pace than regular. Requires amounts of oil as fuel and power. Can not be boosted by overdrive",
+  "outputItem": "Voidstone/1",
+  "health": 1350,
+  "itemCapacity": 40,
+  "size": 3,
+  "craftTime": 180,
+  "forceDark": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "hasPower": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+	"power": 2.5,
+  "liquid": {
+  	"liquid": "oil",
+  	"amount": 0.12,
+    }
+  },
+  "requirements": [
+	  {"item": "copper", "amount": 400},
+	  {"item": "lead", "amount": 400},
+	  {"item": "silicon", "amount": 100},
+	  {"item": "titanium", "amount": 50},
+	  {"item": "Voidstone", "amount": 25},
+	  {"item": "plastanium", "amount": 25}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "Void-harvester",
+    "requirements": [
+      {"item": "Research-point", "amount": 500},
+    ]
+  }
+}
