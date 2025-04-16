@@ -17,6 +17,7 @@
   	"items": [
   	  "Voidstone/3"
   	]
+  }
   },
   "requirements": [
 	  {"item": "lead", "amount": 750},
