@@ -1,0 +1,10 @@
+{
+  "name": "Research points",
+  "description": "Crucial for researching the contents for this mod in campaign. No use outside campaign",
+  "cost": 0,
+  "color": "798bdb",
+  "buildable": false,
+   "research": {
+    "parent": "Voidstone"
+  }
+}
