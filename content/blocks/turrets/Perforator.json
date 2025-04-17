@@ -56,7 +56,7 @@
       "width": 0.2,
       "length": 160,
       "damage": 16,
-      "lifetime": 120
+      "lifetime": 120,
       "pierceArmor": true,
       "largeHit": true,
       "shake": 0.6,
