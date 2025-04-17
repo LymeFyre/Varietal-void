@@ -1,6 +1,6 @@
 {
     "type": "LaserTurret",
-    "name": "Perforate",
+    "name": "Perforator",
     "description": "Deadly piercing laser destroys arrays of enemies. Weak to enemy buildings.",
     "size": 3,
     "health": 2700,
