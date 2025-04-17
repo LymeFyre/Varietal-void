@@ -3,7 +3,7 @@
   "description": "Wall made from xyvloid plates, protects structures.",
   "type": "Wall",
   "health": 6400,
-  "size": 1,
+  "size": 2,
   "requirements": [
       {"item": "Xyvloid-plate", "amount": 48},
       {"item": "Voidstone", "amount": 48}
