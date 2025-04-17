@@ -4,15 +4,15 @@
     "description": "Deadly piercing laser destroys arrays of enemies. Weak to enemy buildings.",
     "size": 3,
     "health": 2700,
-    "reload": 60,
+    "reload": 30,
     "category": "turret",
     "shootEffect": "shootBigSmoke2",
     "shootSound": "laserbig",
-    "coolantMultiplier": 0.2,
+    "coolantMultiplier": 0.5,
     "consumes": {
       "power": 4,
       "coolant": {
-        "amount": 0.2
+        "amount": 0.1
       }
     },
     "range": 160,
