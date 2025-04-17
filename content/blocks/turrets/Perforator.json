@@ -64,7 +64,7 @@
       "research": {
       "parent": "lancer",
       "requirements": [
-        "item": "Research-points", "amount": 1000,
+        "item": "Research-points", "amount": 1000
       ]
       },
       "requirements": [
