@@ -61,18 +61,19 @@
       "largeHit": true,
       "shake": 0.6,
       "hitColor": "e8d174",
-      "research": {
-      "parent": "lancer",
-      "requirements": [
-        "Research-points/1000"
-      ]
-      },
-      "requirements": [
-      "copper/250",
-      "lead/250",
-      "silicon/100",
-      "titanium/75",
-      "Xyvloid-plate/50"
+    },
+    "research": {
+    "parent": "lancer",
+    "requirements": [
+      "Research-points/1000"
+    ]
+    },
+    "requirements": [
+    "copper/250",
+    "lead/250",
+    "silicon/100",
+    "titanium/75",
+    "Xyvloid-plate/50"
     ],
-  }
 }
+
