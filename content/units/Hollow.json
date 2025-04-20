@@ -1,0 +1,54 @@
+{
+  "type": "flying",
+  "name": "[orange]Hollow",
+  "description": "Sprays homing energy projectiles. Protected with a mounted automatic energy gun.",
+  "speed": 3,
+  "research": {
+  "parent":"Xyv-assembly",
+  "requirements": [
+    "Research-points/1000"
+  	]
+  }
+  "flying": true,
+  "health": 1200,
+  "armor": 2,
+  "engineOffset": 7,
+  "weapons": [
+    {
+      "reload": 24,
+      "mirror": false,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 40,
+        "width": 12,
+        "length": 12,
+        "speed": 1,
+        "drag": -0.01,
+        "lifetime": 120,
+        "backColor": "798dbd",
+        "frontColor": "ffffff",
+        "homingPower": 0.4,
+        "homingRadius": 120
+      }
+    },
+    {
+      "name": "Mounted-energy-cannon"
+      "reload": 60,
+      "mirror": false,
+      "controlable": false,
+      "autoTarget": true,
+      "rotate": true,
+      "bullet": {
+      	"type": "BasicBulletType",
+      	"damage": 75,
+      	"width": 8,
+      	"length": 16,
+      	"speed": 5,
+      	"lifetime": 20,
+      	"backColor": "798dbd",
+        "frontColor": "ffffff",
+      }
+    }
+  ],
+  "hitSize": 6
+}
