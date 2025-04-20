@@ -1,0 +1,32 @@
+{
+  "type": "unitFactory",
+  "name": "Xyv Assembly",
+  "description": "Creates advanced, complex units.",
+  "size": 5,
+  "consumes": {
+    "power": 3
+  },
+  "plans": [
+    {
+      "unit": "Hollow",
+      "requirements": [
+      	"Voidstone/50",
+        "Xyvloid-plate/25",
+      ],
+      "time": 6000
+    },
+  ],
+  "requirements": [
+    "copper/150",
+    "lead/150",
+    "silicon/75",
+    "Xyvloid-plate/50"
+  ],
+  "category": "units",
+  "research": {
+  "parent": "multiplicative-factory"
+  "requirements": [
+  	"Research-points/1000"
+  	]
+  }
+        }
