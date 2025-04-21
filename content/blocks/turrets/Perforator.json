@@ -1,0 +1,49 @@
+{
+    "type": "LaserTurret",
+    "name": "Perforator",
+    "description": "Bursts of thin lasers drill through lines of enemies.",
+    "size": 2,
+    "reload": 240,
+    "category": "turret",
+    "shootEffect": "shootBigSmoke2",
+    "research": {
+    "parent": "lancer",
+    "requirements": [
+      "Research-points/1000"
+    ]
+    },
+    "requirements": [
+      "copper/200",
+      "silicon/150",
+      "titanium/70",
+      "Xyvloid-plate/50"
+    ],
+    "coolantMultiplier": 0.25,
+    "consumes": {
+      "power": 8,
+      "coolant": {
+        "amount": 0.2
+      }
+    },
+    "shoot": {
+      "shots": 6,
+      "shotDelay": 5
+    },
+    "range": 160,
+    "shootCone": 1,
+    "scaledHealth": 1600,
+    "rotateSpeed": 2,
+    "targetAir": true,
+    "targetGround": true,
+    "shootType": {
+      "type": "laserBulletType",
+      "colors": ["6874c4", "798bdb", "8ba9e8", "8ca4f5", "ffffff"],
+      "width": 0.8,
+      "length": 160,
+      "damage": 90,
+      "shake": 0.5,
+      "pierceCap": 10,
+      "despawnShake": 2,
+      "hitColor": "8ba9e8",
+  }
+}
