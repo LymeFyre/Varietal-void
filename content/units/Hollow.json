@@ -10,49 +10,49 @@
   	]
   }
   "flying": true,
-  "health": 1400,
+  "health": 1750,
   "armor": 2,
-  "engineOffset": 7,
+  "engineOffset": 8,
   "weapons": [
     {
       "reload": 240,
       "mirror": false,
       "x": 0,
-      "y": 8,
-      "inaccuracy": 30,
+      "y": 6,
+      "inaccuracy": 45,
       "shoot": {
-        "shots": 12,
-        "shotDelay": 5
+        "shots": 16,
+        "shotDelay": 2
       }
       "bullet": {
         "type": "BasicBulletType",
         "damage": 36,
-        "width": 12,
-        "length": 12,
-        "speed": 2,
-        "lifetime": 90,
+        "width": 16,
+        "length": 16,
+        "speed": 3,
+        "lifetime": 60,
         "shrinkY": 0,
         "backColor": "798dbd",
         "frontColor": "ffffff",
         "homingPower": 0.3,
-        "homingRadius": 120,
-        "homingDelay": 20
+        "homingRadius": 180,
+        "homingDelay": 30
       }
     },
     {
       "name": "Mounted-energy-cannon"
-      "reload": 120,
+      "reload": 60,
       "mirror": false,
       "controllable": false,
       "autoTarget": true,
       "rotate": true,
-      "rotateSpeed": 3.5,
+      "rotateSpeed": 3,
       "targetInterval": 10,
       "targetSwitchInterval": 15,
       "x": 0,
       "bullet": {
       	"type": "BasicBulletType",
-      	"damage": 90,
+      	"damage": 75,
       	"width": 8,
       	"length": 12,
       	"speed": 8,
