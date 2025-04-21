@@ -22,21 +22,22 @@
       "inaccuracy": 45,
       "shoot": {
         "shots": 16,
-        "shotDelay": 2
+        "shotDelay": 1
       }
       "bullet": {
         "type": "BasicBulletType",
         "damage": 36,
         "width": 16,
         "length": 16,
-        "speed": 3,
-        "lifetime": 60,
+        "speed": 4,
+        "lifetime": 40,
         "shrinkY": 0,
+        "shrinkX": 0,
         "backColor": "798dbd",
         "frontColor": "ffffff",
         "homingPower": 0.3,
         "homingRadius": 180,
-        "homingDelay": 30,
+        "homingDelay": 20,
         "keepVelocity": false
       }
     },
@@ -59,6 +60,7 @@
       	"speed": 8,
       	"lifetime": 20,
         "shrinkY": 0,
+        "shrinkX": 0,
       	"backColor": "798dbd",
         "frontColor": "ffffff",
       }
