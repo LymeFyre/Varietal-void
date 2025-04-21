@@ -2,7 +2,7 @@
   "type": "flying",
   "name": "[orange]Hollow",
   "description": "Sprays homing energy projectiles. Protected with a mounted automatic energy gun.",
-  "speed": 3,
+  "speed": 3.4,
   "research": {
   "parent":"Xyv-assembly",
   "requirements": [
@@ -19,10 +19,10 @@
       "mirror": false,
       "x": 0,
       "y": 8,
-      "inaccuracy": 18,
+      "inaccuracy": 30,
       "shoot": {
         "shots": 12,
-        "shotDelay": 3
+        "shotDelay": 5
       }
       "bullet": {
         "type": "BasicBulletType",
@@ -30,30 +30,33 @@
         "width": 12,
         "length": 12,
         "speed": 2,
-        "drag": 0.05,
-        "lifetime": 80,
+        "lifetime": 90,
         "shrinkY": 0,
         "backColor": "798dbd",
         "frontColor": "ffffff",
         "homingPower": 0.3,
-        "homingRadius": 120
+        "homingRadius": 120,
+        "homingDelay": 20
       }
     },
     {
       "name": "Mounted-energy-cannon"
       "reload": 120,
       "mirror": false,
-      "controlable": false,
+      "controllable": false,
       "autoTarget": true,
       "rotate": true,
+      "rotateSpeed": 3.5,
+      "targetInterval": 10,
+      "targetSwitchInterval": 15,
       "x": 0,
       "bullet": {
       	"type": "BasicBulletType",
-      	"damage": 80,
+      	"damage": 90,
       	"width": 8,
       	"length": 12,
-      	"speed": 2,
-      	"lifetime": 40,
+      	"speed": 8,
+      	"lifetime": 20,
         "shrinkY": 0,
       	"backColor": "798dbd",
         "frontColor": "ffffff",
