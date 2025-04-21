@@ -15,19 +15,25 @@
   "engineOffset": 7,
   "weapons": [
     {
-      "reload": 24,
+      "reload": 120,
       "mirror": false,
+      "x": 0,
+      "y": 8,
+      "shoot": {
+        "shots": 12,
+        "shotDelay": 2
+      }
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 40,
+        "damage": 36,
         "width": 12,
         "length": 12,
-        "speed": 1,
-        "drag": -0.01,
-        "lifetime": 120,
+        "speed": 0.5,
+        "drag": -0.05,
+        "lifetime": 80,
         "backColor": "798dbd",
         "frontColor": "ffffff",
-        "homingPower": 0.4,
+        "homingPower": 0.3,
         "homingRadius": 120
       }
     },
