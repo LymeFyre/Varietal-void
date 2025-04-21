@@ -1,6 +1,6 @@
 {
   "type": "flying",
-  "name": "[orange]Hollow",
+  "name": "[#798dbd]Hollow",
   "description": "Sprays homing energy projectiles. Protected with a mounted automatic energy gun.",
   "speed": 3.4,
   "research": {
@@ -36,7 +36,8 @@
         "frontColor": "ffffff",
         "homingPower": 0.3,
         "homingRadius": 180,
-        "homingDelay": 30
+        "homingDelay": 30,
+        "keepVelocity": false
       }
     },
     {
