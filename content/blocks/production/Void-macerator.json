@@ -10,6 +10,7 @@
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
+	"power": 10,
   "items": {
   	"items": [
 		"Voidstone/1",
