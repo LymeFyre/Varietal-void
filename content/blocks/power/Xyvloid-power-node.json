@@ -1,0 +1,16 @@
+{
+  "type": "PowerNode",
+  "name": "Xyvloid power node",
+  "description": "Advanced reinforced power node eliminating the need for vanilla large power nodes.",
+  "size": 1,
+  "health": 600,
+  "laserRange": 20,
+  "maxNodes": 20,
+  "requirements": [
+    "silicon/8",
+    "Voidstone/6",
+    "Xyvloid-plate/4"
+  ],
+  "category": "power",
+  "research": "large-power-node"
+}
