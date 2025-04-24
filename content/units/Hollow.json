@@ -15,20 +15,20 @@
   "engineOffset": 6,
   "weapons": [
     {
-      "reload": 180,
+      "reload": 240,
       "mirror": false,
       "x": 0,
       "y": 6,
       "inaccuracy": 25,
       "shoot": {
-        "shots": 7,
-        "shotDelay": 1
+        "shots": 12,
+        "shotDelay": 5
       }
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 27,
-        "width": 8,
-        "height": 8,
+        "damage": 45,
+        "width": 16,
+        "height": 16,
         "speed": 2,
         "lifetime": 60,
         "pierceArmor": true,
@@ -38,13 +38,13 @@
         "frontColor": "ffffff",
         "homingPower": 0.1,
         "homingRadius": 180,
-        "homingDelay": 40,
+        "homingDelay": 20,
         "keepVelocity": false
       }
     },
     {
       "name": "Mounted-energy-cannon"
-      "reload": 60,
+      "reload": 30,
       "mirror": false,
       "controllable": false,
       "autoTarget": true,
@@ -56,11 +56,11 @@
       "shootCone": 3,
       "bullet": {
       	"type": "BasicBulletType",
-      	"damage": 65,
-      	"width": 12,
-      	"height": 24,
-      	"speed": 8,
-      	"lifetime": 20,
+      	"damage": 18,
+      	"width": 4,
+      	"height": 12,
+      	"speed": 4,
+      	"lifetime": 40,
         "pierce": true,
         "pierceCap": 2,
         "shrinkY": 0,
