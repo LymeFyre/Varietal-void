@@ -9,15 +9,15 @@
     "Xyvloid-plate/4"
   ],
   "health": 600,
-  "speed": 0.16,
-  "displayedSpeed": 22,
+  "speed": 0.08,
+  "displayedSpeed": 11,
   "itemCapacity": 5,
   "outputRouter": true,
   "glowColor": "798bdb",
   "research": {
   "parent": "plastanium-conveyor",
   "requirements": [
-     "Research-points/1500"
+     "Research-points/2500"
     ]
   }
 }
