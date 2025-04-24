@@ -21,23 +21,23 @@
     }
   },
   "requirements": [
-    {"copper/125"},
-    {"lead/125"},
-    {"silicon/75"},
-    {"titanium/50"},
-    {"Xyvloid-plate/25"}
+    "copper/125",
+    "lead/125",
+    "silicon/75",
+    "titanium/50",
+    "Xyvloid-plate/25"
   ],
   "results": [
-    {"lead/10"},
-    {"coal/7"},
-    {"graphite/5"},
-    {"titanium/3"}
+    "lead/10",
+    "coal/7",
+    "graphite/5",
+    "titanium/3"
   ],
   "category": "crafting",
   "research": {
   "parent": "separator",
   "requirements": [
-  	{"Research-points/2000"}
+  	"Research-points/2000"
   	]
   }
     }
