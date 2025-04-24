@@ -17,7 +17,7 @@
   "research": {
   "parent": "plastanium-conveyor",
   "requirements": [
-     {"Research-points/1500"}
+     "Research-points/1500"
     ]
   }
 }
