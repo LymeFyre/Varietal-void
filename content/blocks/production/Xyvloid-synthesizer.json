@@ -12,7 +12,7 @@
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-	"power": 2,
+	"power": 5,
   "liquids": {
   	"liquids": [
   		"Xyvliquid/0.12",
