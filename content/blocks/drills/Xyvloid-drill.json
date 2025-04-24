@@ -22,18 +22,18 @@
   }
    }, 
   "requirements": [
-    {"copper/130"},
-    {"silicon/120"}, 
-    {"titanium/100"},
-    {"plastanium/100"},
-    {"Voidstone/150"},
-    {"Xyvloid-plate/75"}
+    "copper/130",
+    "silicon/120", 
+    "titanium/100",
+    "plastanium/100",
+    "Voidstone/150",
+    "Xyvloid-plate/75"
   ],
   "category": "production",
   "research": {
     "parent": "compact-laser-drill",
     "requirements": [
-    	{"Research-points/2500"}
+    	"Research-points/2500"
     	]
   }
 }
