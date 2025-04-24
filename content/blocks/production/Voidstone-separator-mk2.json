@@ -16,8 +16,8 @@
     },
     "items": {
       "items": [
-      	{"pyratite/1"},
-        {"Crushed-voidstone/3"}
+      	"pyratite/1",
+        "Crushed-voidstone/3"
       ]
     }
   },
