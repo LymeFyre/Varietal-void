@@ -1,0 +1,44 @@
+{
+  "type": "Separator",
+  "name": "Voidstone separator MK2",
+  "description": "Produces an assortment of materials by breaking down crushed voidstone. Requires slag and power.",
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "liquidCapacity": 20,
+  "craftTime": 45,
+  "consumes": {
+    "power": 10,
+    "liquid": {
+      "liquid": "oil",
+      "amount": 0.3
+    },
+    "items": {
+      "items": [
+      	{"pyratite/1"},
+        {"Crushed-voidstone/3"}
+      ]
+    }
+  },
+  "requirements": [
+    {"copper/175"},
+    {"lead/175"},
+    {"titanium/100"},
+    {"thorium/75"},
+    {"Xyvloid-plate/35"}
+  ],
+  "results": [
+    {"copper/5"},
+    {"scrap/1"},
+    {"silicon/4"},
+    {"thorium/3"}
+  ],
+  "category": "crafting",
+  "research": {
+  "parent": "separator",
+  "requirements": [
+  	{"Research-points/2500"}
+  	]
+  }
+}
