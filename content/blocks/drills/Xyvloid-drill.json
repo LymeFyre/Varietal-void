@@ -1,0 +1,39 @@
+{ 
+  "name": "Xyvloid drill", 
+  "description": "Mines ores. Better than Impact drills but requires large amount of power", 
+  "type": "Drill", 
+  "size": 3, 
+  "hasPower": true, 
+  "hasLiquids": true, 
+  "liquidCapacity": 40, 
+  "hasItems": true, 
+  "itemCapacity": 60, 
+  "tier": 6, 
+  "drillTime": 120, 
+  "rotateSpeed": 8, 
+  "liquidBoostIntensity": 2,
+  "consumes": { 
+  "power": 25, 
+  "liquid": {
+    "liquid": "water", 
+    "amount": 1,
+    "optional": true, 
+    "booster": true,
+  }
+   }, 
+  "requirements": [
+    {"copper/130"},
+    {"silicon/120"}, 
+    {"titanium/100"},
+    {"plastanium/100"},
+    {"Voidstone/150"},
+    {"Xyvloid-plate/75"}
+  ],
+  "category": "production",
+  "research": {
+    "parent": "compact-laser-drill",
+    "requirements": [
+    	{"Research-points/2500"}
+    	]
+  }
+}
