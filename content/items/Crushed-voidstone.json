@@ -1,0 +1,10 @@
+{
+  "name": "Crushed voidstone",
+  "description": "Crushed voidstone from the void",
+  "cost": 1.5,
+  "color": "303138",
+  "hardness": 6,
+   "research": {
+    "parent": "Voidstone"
+  }
+}
