@@ -2,7 +2,7 @@
   "type": "flying",
   "name": "[#798dbd]Hollow",
   "description": "Sprays homing energy projectiles. Protected with a mounted automatic energy gun.",
-  "speed": 3.4,
+  "speed": 1.7,
   "research": {
   "parent":"Xyv-assembly",
   "requirements": [
@@ -10,27 +10,27 @@
   	]
   }
   "flying": true,
-  "health": 1750,
-  "armor": 2,
-  "engineOffset": 8,
+  "health": 2450,
+  "armor": 4,
+  "engineOffset": 6,
   "weapons": [
     {
-      "reload": 120,
+      "reload": 180,
       "mirror": false,
       "x": 0,
       "y": 6,
       "inaccuracy": 25,
       "shoot": {
-        "shots": 10,
-        "shotDelay": 2
+        "shots": 7,
+        "shotDelay": 1
       }
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 36,
-        "width": 12,
-        "height": 12,
-        "speed": 1,
-        "lifetime": 160,
+        "damage": 27,
+        "width": 8,
+        "height": 8,
+        "speed": 2,
+        "lifetime": 60,
         "pierceArmor": true,
         "shrinkY": 0,
         "shrinkX": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "Mounted-energy-cannon"
-      "reload": 50,
+      "reload": 60,
       "mirror": false,
       "controllable": false,
       "autoTarget": true,
@@ -53,13 +53,14 @@
       "targetInterval": 10,
       "targetSwitchInterval": 15,
       "x": 0,
+      "shootCone": 3,
       "bullet": {
       	"type": "BasicBulletType",
       	"damage": 65,
-      	"width": 4,
-      	"height": 16,
-      	"speed": 4,
-      	"lifetime": 45,
+      	"width": 12,
+      	"height": 24,
+      	"speed": 8,
+      	"lifetime": 20,
         "pierce": true,
         "pierceCap": 2,
         "shrinkY": 0,
