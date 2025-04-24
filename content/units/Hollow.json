@@ -6,7 +6,7 @@
   "research": {
   "parent":"Xyv-assembly",
   "requirements": [
-    "Research-points/1000"
+    "Research-points/2500"
   	]
   }
   "flying": true,
@@ -15,50 +15,53 @@
   "engineOffset": 8,
   "weapons": [
     {
-      "reload": 240,
+      "reload": 120,
       "mirror": false,
       "x": 0,
       "y": 6,
-      "inaccuracy": 45,
+      "inaccuracy": 25,
       "shoot": {
-        "shots": 16,
-        "shotDelay": 1
+        "shots": 10,
+        "shotDelay": 2
       }
       "bullet": {
         "type": "BasicBulletType",
         "damage": 36,
-        "width": 16,
-        "length": 16,
-        "speed": 4,
-        "lifetime": 40,
+        "width": 12,
+        "height": 12,
+        "speed": 1,
+        "lifetime": 160,
+        "pierceArmor": true,
         "shrinkY": 0,
         "shrinkX": 0,
         "backColor": "798dbd",
         "frontColor": "ffffff",
-        "homingPower": 0.3,
+        "homingPower": 0.1,
         "homingRadius": 180,
-        "homingDelay": 20,
+        "homingDelay": 40,
         "keepVelocity": false
       }
     },
     {
       "name": "Mounted-energy-cannon"
-      "reload": 60,
+      "reload": 50,
       "mirror": false,
       "controllable": false,
       "autoTarget": true,
       "rotate": true,
-      "rotateSpeed": 3,
+      "rotateSpeed": 2,
       "targetInterval": 10,
       "targetSwitchInterval": 15,
       "x": 0,
       "bullet": {
       	"type": "BasicBulletType",
-      	"damage": 75,
-      	"width": 8,
-      	"length": 12,
-      	"speed": 8,
-      	"lifetime": 20,
+      	"damage": 65,
+      	"width": 4,
+      	"height": 16,
+      	"speed": 4,
+      	"lifetime": 45,
+        "pierce": true,
+        "pierceCap": 2,
         "shrinkY": 0,
         "shrinkX": 0,
       	"backColor": "798dbd",
