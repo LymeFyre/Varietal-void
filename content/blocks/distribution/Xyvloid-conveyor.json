@@ -1,0 +1,23 @@
+{
+  "type": "StackConveyor",
+  "name": "Xyvloid conveyor",
+  "description": "Rapid fire batch item transport.",
+  "category": "distribution",
+  "requirements": [
+    "silicon/8",
+    "Voidstone/4",
+    "Xyvloid-plate/4"
+  ],
+  "health": 600,
+  "speed": 0.16,
+  "displayedSpeed": 22,
+  "itemCapacity": 5,
+  "outputRouter": true,
+  "glowColor": "798bdb",
+  "research": {
+  "parent": "plastanium-conveyor",
+  "requirements": [
+     {"Research-points/1500"}
+    ]
+  }
+}
