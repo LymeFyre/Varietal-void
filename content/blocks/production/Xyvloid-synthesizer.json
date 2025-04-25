@@ -21,13 +21,13 @@
   }
   },
   "requirements": [
-	  {"item": "copper", "amount": 800},
-	  {"item": "lead", "amount": 800},
-	  {"item": "graphite", "amount": 450},
-	  {"item": "silicon", "amount": 300},
-	  {"item": "metaglass", "amount": 150},
-	  {"item": "titanium", "amount": 100},
-	  {"item": "Voidstone", "amount": 50}
+	  {"item": "copper", "amount": 400},
+	  {"item": "lead", "amount": 400},
+	  {"item": "graphite", "amount": 250},
+	  {"item": "silicon", "amount": 200},
+	  {"item": "metaglass", "amount": 125},
+	  {"item": "titanium", "amount": 75},
+	  {"item": "Voidstone", "amount": 25}
   ],
   "category": "crafting",
     "research": {
