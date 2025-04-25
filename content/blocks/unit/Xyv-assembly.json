@@ -10,10 +10,11 @@
     {
       "unit": "Hollow",
       "requirements": [
-      	"Voidstone/50",
-        "Xyvloid-plate/25",
+        "titanium/80",
+      	"Voidstone/60",
+        "Xyvloid-plate/40",
       ],
-      "time": 6000
+      "time": 3000
     },
   ],
   "requirements": [
@@ -26,7 +27,7 @@
   "research": {
   "parent": "multiplicative-factory"
   "requirements": [
-  	"Research-points/1000"
+  	"Research-points/5000"
   	]
   }
         }
