@@ -1,6 +1,6 @@
 { 
   "name": "Xyvloid drill", 
-  "description": "Mines ores. Better than Impact drills but requires large amount of power", 
+  "description": "Mines ores. Better than Airblast drills but requires large amount of power", 
   "type": "Drill", 
   "size": 3, 
   "hasPower": true, 
@@ -9,14 +9,14 @@
   "hasItems": true, 
   "itemCapacity": 60, 
   "tier": 6, 
-  "drillTime": 120, 
-  "rotateSpeed": 8, 
-  "liquidBoostIntensity": 2,
+  "drillTime": 90, 
+  "rotateSpeed": 4, 
+  "liquidBoostIntensity": 4,
   "consumes": { 
   "power": 25, 
   "liquid": {
     "liquid": "water", 
-    "amount": 1,
+    "amount": 0.25,
     "optional": true, 
     "booster": true,
   }
@@ -33,7 +33,7 @@
   "research": {
     "parent": "compact-laser-drill",
     "requirements": [
-    	"Research-points/2500"
+    	"Research-points/3500"
     	]
   }
 }
