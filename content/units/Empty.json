@@ -1,0 +1,71 @@
+{
+  "type": "flying",
+  "name": "Empty",
+  "description": "Heavy armored railgun ship with energy missiles",
+  "speed": 1.1,
+  "research": {
+  "parent": "Xyv assembly"
+  "requirement": [
+  	"Research-points/4500"
+  	]
+  },
+  "flying": true,
+  "health": 2750,
+  "armor": 6,
+  "hitsize": 18,
+  "itemCapacity": 60,
+  "engineOffset": 10,
+  "rotateSpeed": 2,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "reload": 360,
+      "shootCone": 5
+      "rotate": false,
+      "mirror": false,
+      "bullet": {
+        "type": "BasicBulletType",
+        "shrinkY": 0,
+        "shrinkX": -0.05,
+        "width": 8,
+        "height": 24,
+        "lifetime": 27,
+        "speed": 8,
+        "damage": 470,
+        "pierce": true,
+        "pierceBuilding": true,
+        "absorbable": true,
+        "reflectable": false,
+        "buildingDamageMultiplier": 1.5,
+        "shieldDamageMultiplier": 5,
+        "pierceCap": 10,
+        "pierceDamageFactor": 0.5,
+        "frontColor": "8ca4f5",
+        "backColor": "6874c4"
+        "velocityScaleRandMin": 0.8,
+        "velocityScaleRandMax": 1.2,
+        "trailWidth": 2,
+        "trailLength": 8
+      }
+    },
+    {
+      "name": "Mounted-missile",
+      "x": -12,
+      "reload": 90,
+      "rotate": true,
+      "mirror": true,
+      "top": true,
+      "rotateSpeed": 3,
+      "bullet": {
+        "type": "MissileBulletType",
+        "splashDamage": 32,
+        "splashDamageRadius": 60,
+        "lifetime": 60,
+        "speed": 2.5,
+        "homingPower": 0.6,
+        "homingRange": 60,
+      }
+    },
+  ],
+}
