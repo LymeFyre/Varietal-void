@@ -32,7 +32,7 @@
         "height": 48,
         "lifetime": 27,
         "speed": 8,
-        "damage": 460,
+        "damage": 675,
         "pierce": true,
         "pierceBuilding": true,
         "absorbable": true,
