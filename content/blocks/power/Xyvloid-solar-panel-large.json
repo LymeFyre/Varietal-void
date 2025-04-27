@@ -1,0 +1,21 @@
+{
+  "type": "SolarGenerator",
+  "name": "Xyvloid solar panel large",
+  "description": "Reinforced solar panel producing power from the sun.",
+  "health": 2250,
+  "size": 3,
+  "hasPower": true,
+  "powerProduction": 4.8,
+  "requirements": [
+    "lead/128",
+    "silicon/96",
+    "Xyvloid-plate/64"
+  ],
+  "category": "power",
+  "research": {
+  "parent": "solar-panel-large",
+  "requirements": [
+  	"Research-points/2250",
+  	]
+  }
+}
