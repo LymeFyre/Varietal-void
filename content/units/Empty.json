@@ -30,6 +30,7 @@
         "shrinkX": -0.05,
         "width": 12,
         "height": 48,
+        "hitSize": 60,
         "lifetime": 27,
         "speed": 8,
         "damage": 675,
