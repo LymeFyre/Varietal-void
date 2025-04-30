@@ -20,7 +20,7 @@
       {
       "x": 0,
       "y": 0,
-      "reload": 360,
+      "reload": 270,
       "shootCone": 5,
       "rotate": false,
       "mirror": false,
@@ -28,7 +28,7 @@
       	"type": "BasicBulletType",
         "shrinkY": 0,
         "shrinkX": -0.05,
-        "width": 12,
+        "width": 16,
         "height": 48,
         "hitSize": 60,
         "lifetime": 27,
@@ -38,9 +38,8 @@
         "pierceBuilding": true,
         "absorbable": true,
         "reflectable": false,
-        "shieldDamageMultiplier": 2,
-        "pierceCap": 10,
-        "pierceDamageFactor": 0.5,
+        "shieldDamageMultiplier": 5,
+        "pierceDamageFactor": 0.8,
         "frontColor": "8ca4f5",
         "backColor": "6874c4"
         "velocityScaleRandMin": 0.8,
@@ -49,7 +48,7 @@
     },
     {
       "name": "Mounted-missile",
-      "x": 4,
+      "x": 8,
       "y": 8,
       "reload": 60,
       "rotate": true,
