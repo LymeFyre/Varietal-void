@@ -1,0 +1,53 @@
+{
+  "type": "ItemTurret",
+  "name": "Comet",
+  "description": "Launches a slow projectile that damages and temporarily slows enemies in a small area",
+  "health": 1600,
+  "range": 160,
+  "size": 2,
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 2.4,
+  "inaccuracy": 0,
+  "recoil": 1.4,
+  "reload": 300,
+  "consumes": {
+    "coolant": {
+      "amount": 0.25
+    }
+  },
+  "shoot": {
+  	"shots": 3,
+  	"shotDelay": 15
+  }
+  "ammoTypes": {
+      "Xyvloid-plate": {
+      "lifetime": 60,
+      "speed": 4,
+      "splashDamageRadius": 40,
+      "splashDamage": 48,
+      "type": "BasicBulletType",
+      "ammoMultiplier": 4,
+      "frontColor": "ffffff",
+      "backColor": "6874c4",
+      "trailLength": 24,
+      "trailColor": "798bdb",
+      "width": 24,
+      "height": 24,
+      "status": "slow",
+      "statusDuration": 60
+    },
+  },
+  "requirements": [
+    "lead/120",
+    "silicon/80",
+    "Xyvloid-plate/40"
+    ]
+  "category": "turret",
+  "research": {
+  	"parent": "ripple",
+  	"requirements": [
+  		"Research-points/2000"
+  	]
+  }
+}
