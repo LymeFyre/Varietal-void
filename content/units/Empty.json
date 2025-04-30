@@ -48,8 +48,7 @@
     },
     {
       "name": "Mounted-missile",
-      "x": 8,
-      "y": 8,
+      "x": 4,
       "reload": 60,
       "rotate": true,
       "mirror": true,
