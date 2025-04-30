@@ -39,6 +39,10 @@
         "pierceCap": 10,
         "pierceDamageFactor": 0.75,
         "frontColor": "8ca4f5",
+        "pointEffectSpace" = 60,
+        "pierceEffect" = "railHit",
+        "pointEffect" = "railTrail",
+        "hitEffect" = "explosion",
       }
     },
     {
