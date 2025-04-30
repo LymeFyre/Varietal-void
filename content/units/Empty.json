@@ -18,6 +18,7 @@
   "rotateSpeed": 2,
   "weapons": [
     {
+      {
       "x": 0,
       "y": 0,
       "reload": 360,
@@ -25,54 +26,48 @@
       "rotate": false,
       "mirror": false,
       "bullet": {
-      	"type": "RailBulletType",
-        "width": 8,
-        "length": 200,
+      	"type": "BasicBulletType",
+        "shrinkY": 0,
+        "shrinkX": -0.05,
+        "width": 12,
+        "height": 48,
         "lifetime": 27,
-        "damage": 470,
+        "speed": 8,
+        "damage": 675,
         "pierce": true,
         "pierceBuilding": true,
         "absorbable": true,
         "reflectable": false,
-        "buildingDamageMultiplier": 1.5,
-        "shieldDamageMultiplier": 5,
+        "shieldDamageMultiplier": 2,
         "pierceCap": 10,
-        "pierceDamageFactor": 0.75,
+        "pierceDamageFactor": 0.5,
         "frontColor": "8ca4f5",
-        "pointEffectSpace": 60,
-        "pierceEffect": {
-          "type": "railHit",
-          "color": "789bdb"
-        },
-        "pointEffect": {
-          "type": "railTrail",
-          "color": "789bdb",
-        },
-        "hitEffect": "explosion",
-      },
+        "backColor": "6874c4"
+        "velocityScaleRandMin": 0.8,
+        "velocityScaleRandMax": 1.2,
+      }
     },
     {
       "name": "Mounted-missile",
-      "x": 6,
-      "reload": 70,
+      "x": 4,
+      "y": 8,
+      "reload": 60,
       "rotate": true,
       "mirror": true,
       "top": true,
-      "rotateSpeed": 3,
+      "rotateSpeed": 4,
       "bullet": {
         "type": "MissileBulletType",
-        "splashDamage": 64,
-        "splashDamageRadius": 60,
-        "lifetime": 60,
-        "speed": 2.5,
+        "splashDamage": 48,
+        "splashDamageRadius": 20,
+        "lifetime": 50,
+        "speed": 4,
         "width": 4,
         "height": 16,
-        "homingPower": 0.6,
-        "homingRange": 60,
         "frontColor": "8ca4f5",
         "backColor": "6974c4",
         "trailColor": "798bdb",
       }
-    },
-  ],
+    }
+  ]
 }
