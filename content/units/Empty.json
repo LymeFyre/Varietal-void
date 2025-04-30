@@ -2,9 +2,9 @@
   "type": "flying",
   "name": "Empty",
   "description": "Heavy armored railgun ship with energy missiles",
-  "speed": 1.1,
+  "speed": 1.9,
   "research": {
-  "parent": "Hollow"
+  "parent": "Hollow",
   "requirement": [
   	"Research-points/4500"
   	]
@@ -40,10 +40,16 @@
         "pierceDamageFactor": 0.75,
         "frontColor": "8ca4f5",
         "pointEffectSpace": 60,
-        "pierceEffect": "railHit",
-        "pointEffect": "railTrail",
+        "pierceEffect": {
+          "type": "railHit",
+          "color": "789bdb"
+        },
+        "pointEffect": {
+          "type": "railTrail",
+          "color": "789bdb",
+        },
         "hitEffect": "explosion",
-      }
+      },
     },
     {
       "name": "Mounted-missile",
