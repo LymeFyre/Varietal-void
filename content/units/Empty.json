@@ -22,7 +22,7 @@
       "x": 0,
       "y": 0,
       "reload": 360,
-      "shootCone": 5
+      "shootCone": 5,
       "rotate": false,
       "mirror": false,
       "bullet": {
