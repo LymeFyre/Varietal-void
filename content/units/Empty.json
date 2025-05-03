@@ -2,7 +2,7 @@
   "type": "flying",
   "name": "Empty",
   "description": "Heavy armored railgun ship with energy missiles",
-  "speed": 1.9,
+  "speed": 1.6,
   "research": {
   "parent": "Hollow",
   "requirement": [
@@ -10,7 +10,7 @@
   	]
   },
   "flying": true,
-  "health": 2750,
+  "health": 2450,
   "armor": 6,
   "hitsize": 18,
   "itemCapacity": 60,
@@ -20,10 +20,13 @@
       {
       "x": 0,
       "y": 0,
-      "reload": 270,
+      "reload": 400,
       "shootCone": 5,
       "rotate": false,
       "mirror": false,
+      "shoot": {
+        "shotDelay": 60,
+      },
       "bullet": {
       	"type": "BasicBulletType",
         "shrinkY": 0,
@@ -39,7 +42,7 @@
         "absorbable": true,
         "reflectable": false,
         "shieldDamageMultiplier": 5,
-        "pierceDamageFactor": 0.8,
+        "pierceDamageFactor": 0.75,
         "frontColor": "8ca4f5",
         "backColor": "6874c4"
         "velocityScaleRandMin": 0.8,
