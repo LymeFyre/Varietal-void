@@ -4,17 +4,28 @@
   "description": "Creates advanced, complex units.",
   "size": 5,
   "consumes": {
-    "power": 3
+    "power": 4
   },
   "plans": [
     {
       "unit": "Hollow",
+      "time": 3000,
       "requirements": [
+        "silicon/100",
         "titanium/80",
       	"Voidstone/60",
         "Xyvloid-plate/40",
       ],
-      "time": 3000
+    },
+    {
+      "unit": "Empty",
+      "time": 6000,
+      "requirements": [
+        "silicon/120",
+        "Voidstone/75",
+        "thorium/90",
+        "Xyvloid-plate/60"
+      ],
     },
   ],
   "requirements": [
@@ -30,4 +41,4 @@
   	"Research-points/5000"
   	]
   }
-        }
+}
