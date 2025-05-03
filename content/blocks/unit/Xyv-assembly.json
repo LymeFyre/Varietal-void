@@ -9,30 +9,30 @@
   "plans": [
     {
       "unit": "Hollow",
-      "time": 3000,
+      "time": 2000,
       "requirements": [
-        "silicon/100",
-        "titanium/80",
-      	"Voidstone/60",
-        "Xyvloid-plate/40",
+        "silicon/25",
+        "titanium/90",
+      	"Voidstone/30",
+        "Xyvloid-plate/15",
       ],
     },
     {
       "unit": "Empty",
-      "time": 6000,
+      "time": 4000,
       "requirements": [
-        "silicon/120",
-        "Voidstone/75",
-        "thorium/90",
-        "Xyvloid-plate/60"
+        "silicon/75",
+        "titanium/160",
+        "Voidstone/50",
+        "Xyvloid-plate/45"
       ],
     },
   ],
   "requirements": [
-    "copper/150",
-    "lead/150",
-    "silicon/75",
-    "Xyvloid-plate/50"
+    "copper/250",
+    "lead/250",
+    "silicon/175",
+    "Xyvloid-plate/100"
   ],
   "category": "units",
   "research": {
