@@ -18,9 +18,9 @@
   },
   "ammoTypes": {
       "Xyvloid-plate": {
-      "lifetime": 50,
-      "speed": 4,
-      "splashDamageRadius": 40,
+      "lifetime": 200,
+      "speed": 1,
+      "splashDamageRadius": 16,
       "splashDamage": 72,
       "type": "BasicBulletType",
       "ammoMultiplier": 6,
