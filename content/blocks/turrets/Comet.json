@@ -1,41 +1,37 @@
 {
   "type": "ItemTurret",
   "name": "Comet",
-  "description": "Launches a slow projectile that damages and temporarily slows enemies in a small area",
+  "description": "Launches a slow projectile that damages and temporarily slows enemies in an area",
   "health": 1600,
-  "range": 160,
+  "range": 200,
   "size": 2,
   "targetAir": true,
   "targetGround": true,
   "rotateSpeed": 2.4,
-  "inaccuracy": 0,
-  "recoil": 1.4,
-  "reload": 300,
+  "inaccuracy": 3,
+  "recoil": 1.1,
+  "reload": 360,
   "consumes": {
     "coolant": {
-      "amount": 0.25
+      "amount": 0.2
     }
   },
-  "shoot": {
-  	"shots": 3,
-  	"shotDelay": 15
-  }
   "ammoTypes": {
       "Xyvloid-plate": {
-      "lifetime": 60,
+      "lifetime": 50,
       "speed": 4,
       "splashDamageRadius": 40,
-      "splashDamage": 48,
+      "splashDamage": 72,
       "type": "BasicBulletType",
-      "ammoMultiplier": 4,
+      "ammoMultiplier": 6,
       "frontColor": "ffffff",
       "backColor": "6874c4",
-      "trailLength": 24,
+      "trailLength": 120,
       "trailColor": "798bdb",
-      "width": 24,
-      "height": 24,
+      "width": 16,
+      "height": 16,
       "status": "slow",
-      "statusDuration": 60
+      "statusDuration": 40
     },
   },
   "requirements": [
@@ -45,7 +41,7 @@
     ]
   "category": "turret",
   "research": {
-  	"parent": "ripple",
+  	"parent": "",
   	"requirements": [
   		"Research-points/2000"
   	]
