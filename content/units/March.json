@@ -2,7 +2,7 @@
   "type": "mech",
   "name": "March",
   "description": "Fast speed light mech hovering with the power of lightning, shoots lightning propelled shocking rockets.",
-  "speed": 3.3,
+  "speed": 2.85,
   "research": {
   "parent": "Xyv assembly"
   "requirement": [
@@ -23,7 +23,7 @@
       "recoil": 0,
       "inaccuracy": 0,
       "baseRotation": 45,
-      "alwaysShoot": true,
+      "alwaysShooting": true,
       "shootCone": 180,
       "rotate": false,
       "mirror": false,
