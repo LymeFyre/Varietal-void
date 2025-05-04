@@ -19,7 +19,7 @@
       "name": "shock-core"
       "x": 0,
       "y": 0,
-      "reload": 15,
+      "reload": 20,
       "recoil": 0,
       "inaccuracy": 0,
       "baseRotation": 45,
@@ -30,14 +30,13 @@
       "shoot": {
       	"type": "shootSpread",
       	"shots": 4,
-      	"spread": 90,
+      	"spread": 45,
       },
       "bullet": {
       	"type": "lightningBulletType",
         "width": 8,
-        "lightningLength": 40,
+        "lightningLength": 10,
         "lifetime": 20,
-        "speed": 8,
         "damage": 9,
         "lightningColor": "ecf2aa",
         "hittable": false
@@ -55,7 +54,7 @@
         "splashDamageRadius": 20,
         "lifetime": 50,
         "speed": 2,
-        "acceleration": 0.01,
+        "acceleration": 0.033,
         "width": 4,
         "height": 12,
         "frontColor": "ffffff",
@@ -68,6 +67,8 @@
           "lightningColor": "ecf2aa"
         },
         "bulletInterval": 16,
+        "intervalAngle": 180,
+        "intervalRandomSpread": 0,
         "lightning": 3,
         "lightningLength": 4,
         "lightningDamage": 16
