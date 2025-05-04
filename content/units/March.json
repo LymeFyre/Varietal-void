@@ -19,7 +19,7 @@
       "name": "shock-core"
       "x": 0,
       "y": 0,
-      "reload": 20,
+      "reload": 15,
       "recoil": 0,
       "inaccuracy": 0,
       "baseRotation": 45,
@@ -35,8 +35,8 @@
       "bullet": {
       	"type": "lightningBulletType",
         "width": 8,
-        "lightningLength": 10,
-        "lifetime": 20,
+        "lightningLength": 8,
+        "lifetime": 30,
         "damage": 9,
         "lightningColor": "ecf2aa",
         "hittable": false
@@ -50,11 +50,11 @@
       "top": true,
       "bullet": {
         "type": "MissileBulletType",
-        "splashDamage": 37,
-        "splashDamageRadius": 20,
-        "lifetime": 50,
+        "splashDamage": 47,
+        "splashDamageRadius": 24,
+        "lifetime": 60,
         "speed": 2,
-        "acceleration": 0.033,
+        "acceleration": 0.05,
         "width": 4,
         "height": 12,
         "frontColor": "ffffff",
