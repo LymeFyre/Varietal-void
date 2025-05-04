@@ -1,0 +1,76 @@
+{
+  "type": "mech",
+  "name": "March",
+  "description": "Fast speed light mech hovering with the power of lightning, shoots lightning propelled shocking rockets.",
+  "speed": 3.3,
+  "research": {
+  "parent": "Xyv assembly"
+  "requirement": [
+  	"Research-points/3000"
+  	]
+  },
+  "flying": false,
+  "hovering": true,
+  "health": 1100,
+  "armor": 2,
+  "rotateSpeed": 6,
+  "weapons": [
+    {
+      "name": "shock-core"
+      "x": 0,
+      "y": 0,
+      "reload": 15,
+      "recoil": 0,
+      "inaccuracy": 0,
+      "baseRotation": 45,
+      "alwaysShoot": true,
+      "rotate": false,
+      "mirror": false,
+      "shoot": {
+      	"type": "shootSpread",
+      	"shots": 4,
+      	"spread": 90,
+      },
+      "bullet": {
+      	"type": "lightningBulletType",
+        "width": 8,
+        "lightningLength": 40,
+        "lifetime": 20,
+        "speed": 8,
+        "damage": 9,
+        "lightningColor": "ecf2aa",
+        "hittable": false
+      }
+    },
+    {
+      "name": "Mounted-shock-gun",
+      "x": 6,
+      "y": 0,
+      "reload": 50,
+      "top": true,
+      "bullet": {
+        "type": "MissileBulletType",
+        "splashDamage": 37,
+        "splashDamageRadius": 20,
+        "lifetime": 50,
+        "speed": 2,
+        "acceleration": 0.01,
+        "width": 4,
+        "height": 12,
+        "frontColor": "ffffff",
+        "backColor": "ecf2aa",
+        "trailColor": "cbd980",
+        "intervalBullet": {
+          "type": "lightningBulletType",
+          "lightningLength": 4,
+          "damage": 9,
+          "lightningColor": "ecf2aa"
+        },
+        "bulletInterval": 16,
+        "lightning": 3,
+        "lightningLength": 4,
+        "lightningDamage": 16
+      }
+    },
+  ],
+    }
