@@ -6,7 +6,7 @@
   "research": {
   "parent": "Xyv assembly"
   "requirement": [
-  	"Research-points/3000"
+  	"Research-points/3500"
   	]
   },
   "flying": false,
@@ -24,6 +24,7 @@
       "inaccuracy": 0,
       "baseRotation": 45,
       "alwaysShoot": true,
+      "shootCone": 180,
       "rotate": false,
       "mirror": false,
       "shoot": {
