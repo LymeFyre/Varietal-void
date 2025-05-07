@@ -47,6 +47,7 @@
         "backColor": "6874c4"
         "velocityScaleRandMin": 0.8,
         "velocityScaleRandMax": 1.2,
+        "keepVelocity": false
       }
     },
     {
@@ -68,6 +69,7 @@
         "frontColor": "8ca4f5",
         "backColor": "6974c4",
         "trailColor": "798bdb",
+        "keepVelocity": false
       }
     }
   ]
