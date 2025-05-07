@@ -1,0 +1,74 @@
+{
+  "type": "mech",
+  "name": "Drive",
+  "description": "Fast mech that lays down shock traps .",
+  "speed": 2.3,
+  "research": {
+  "parent": "Xyv assembly"
+  "requirement": [
+  	"Research-points/6500"
+  	]
+  },
+  "flying": false,
+  "hovering": true,
+  "health": 1800,
+  "armor": 4,
+  "rotateSpeed": 2,
+  "weapons": [
+    {
+      "name": "Shock-core"
+      "x": 0,
+      "y": 0,
+      "reload": 20,
+      "recoil": 0,
+      "inaccuracy": 0,
+      "baseRotation": 45,
+      "alwaysShooting": true,
+      "shootCone": 180,
+      "rotate": false,
+      "mirror": false,
+      "shoot": {
+      	"type": "shootSpread",
+      	"shots": 4,
+      	"spread": 45,
+      },
+      "bullet": {
+      	"type": "lightningBulletType",
+        "width": 8,
+        "lightningLength": 8,
+        "lifetime": 30,
+        "damage": 18,
+        "lightningColor": "ecf2aa",
+        "lightningCone": 15,
+        "hittable": false
+      }
+    },
+    {
+      "name": "Mounted-lightning-rod",
+      "reload": 180,
+      "rotate": true,
+      "mirror": true,
+      "top": true,
+      "rotateSpeed": 3,
+      "bullet": {
+        "type": "BasicBulletType",
+        "lifetime": 600,
+        "speed": 2,
+        "drag": 0.05,
+        "width": 0,
+        "height": 0,
+        "trailColor": "798bdb",
+        "intervalBullet": {
+        	"type": "lightningBulletType"
+        	"lightningLength": 24
+        	"damage": 36,
+        },
+        "bulletInterval": 10,
+        "lightning": 12,
+        "lightningLength": 12,
+        "lightningDamage": 27,
+        "keepVelocity": false
+      }
+    },
+  ],
+      }
