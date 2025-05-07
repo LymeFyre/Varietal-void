@@ -39,6 +39,7 @@
         "lifetime": 30,
         "damage": 18,
         "lightningColor": "ecf2aa",
+        "lightningCone": 15,
         "hittable": false
       }
     },
