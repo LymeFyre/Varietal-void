@@ -1,0 +1,109 @@
+{
+  "type": "mech",
+  "name": "Impel",
+  "description": "Agile mech with sufficient armor and heavily armed with a shocking shotgun and automatic shock turrets,"
+  "speed": 1.9,
+  "research": {
+  "parent": "Xyv assembly"
+  "requirement": [
+  	"Research-points/9500"
+  	]
+  },
+  "flying": false,
+  "hovering": true,
+  "health": 2600,
+  "armor": 7,
+  "rotateSpeed": 2,
+  "weapons": [
+    {
+      "name": "Shock-core-big"
+      "x": 0,
+      "y": 0,
+      "reload": 15,
+      "recoil": 0,
+      "inaccuracy": 0,
+      "baseRotation": 45,
+      "alwaysShooting": true,
+      "shootCone": 180,
+      "rotate": false,
+      "mirror": false,
+      "shoot": {
+      	"type": "shootSpread",
+      	"shots": 4,
+      	"spread": 45,
+      },
+      "bullet": {
+      	"type": "lightningBulletType",
+        "width": 8,
+        "lightningLength": 12,
+        "lifetime": 30,
+        "damage": 27,
+        "lightningColor": "ecf2aa",
+        "lightningCone": 15,
+        "hittable": false
+      }
+    },
+    {
+      "name": "Shock-gun-large",
+      "x": 18,
+      "y": 0,
+      "reload": 150,
+      "top": false,
+      "inaccuracy": 20,
+      "shoot": {
+      	"shots": 7,
+      }
+      "bullet": {
+        "type": "BasicBulletType",
+        "splashDamage": 27,
+        "splashDamageRadius": 16,
+        "lifetime": 150,
+        "speed": 10,
+        "drag": 0.1,
+        "width": 8,
+        "height": 8,
+        "lifeScaleRandMin": 0.5,
+        "frontColor": "ffffff",
+        "backColor": "ecf2aa",
+        "trailColor": "cbd980",
+        "trailLength": 1,
+        "lightning": 5,
+        "lightningLength": 4,
+        "lightningDamage": 16
+      }
+    },
+    {
+      "name": "Mounted-shock-gun",
+      "x": 4,
+      "y": 10,
+      "reload": 75,
+      "top": true,
+      "bullet": {
+        "type": "MissileBulletType",
+        "splashDamage": 47,
+        "splashDamageRadius": 24,
+        "lifetime": 75,
+        "speed": 2,
+        "acceleration": 0.05,
+        "width": 4,
+        "height": 12,
+        "frontColor": "ffffff",
+        "backColor": "ecf2aa",
+        "trailColor": "cbd980",
+        "intervalBullet": {
+          "type": "lightningBulletType",
+          "lightningLength": 4,
+          "damage": 12,
+          "lightningColor": "ecf2aa"
+        },
+        "bulletInterval": 12,
+        "intervalAngle": 180,
+        "intervalRandomSpread": 0,
+        "lightning": 3,
+        "lightningLength": 6,
+        "lightningDamage": 16,
+        "keepVelocity": false,
+      }
+    }
+  ],
+}
