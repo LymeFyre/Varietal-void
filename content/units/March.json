@@ -2,7 +2,7 @@
   "type": "mech",
   "name": "March",
   "description": "Fast speed light mech hovering with the power of lightning, shoots lightning propelled shocking rockets.",
-  "speed": 2.85,
+  "speed": 2.7,
   "research": {
   "parent": "Xyv assembly"
   "requirement": [
@@ -11,15 +11,15 @@
   },
   "flying": false,
   "hovering": true,
-  "health": 1100,
+  "health": 1150,
   "armor": 2,
   "rotateSpeed": 6,
   "weapons": [
     {
-      "name": "shock-core"
+      "name": "Shock-core"
       "x": 0,
       "y": 0,
-      "reload": 15,
+      "reload": 20,
       "recoil": 0,
       "inaccuracy": 0,
       "baseRotation": 45,
@@ -37,7 +37,7 @@
         "width": 8,
         "lightningLength": 8,
         "lifetime": 30,
-        "damage": 9,
+        "damage": 18,
         "lightningColor": "ecf2aa",
         "hittable": false
       }
@@ -52,7 +52,7 @@
         "type": "MissileBulletType",
         "splashDamage": 47,
         "splashDamageRadius": 24,
-        "lifetime": 60,
+        "lifetime": 75,
         "speed": 2,
         "acceleration": 0.05,
         "width": 4,
@@ -63,14 +63,14 @@
         "intervalBullet": {
           "type": "lightningBulletType",
           "lightningLength": 4,
-          "damage": 9,
+          "damage": 12,
           "lightningColor": "ecf2aa"
         },
-        "bulletInterval": 16,
+        "bulletInterval": 12,
         "intervalAngle": 180,
         "intervalRandomSpread": 0,
         "lightning": 3,
-        "lightningLength": 4,
+        "lightningLength": 6,
         "lightningDamage": 16
       }
     },
