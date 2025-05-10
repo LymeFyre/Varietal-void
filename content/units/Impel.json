@@ -80,6 +80,7 @@
       "y": 10,
       "reload": 75,
       "top": true,
+      "alternate": false,
       "bullet": {
         "type": "MissileBulletType",
         "splashDamage": 47,
@@ -113,6 +114,7 @@
       "y": -4,
       "reload": 75,
       "top": true,
+      "alternate": false,
       "bullet": {
         "type": "MissileBulletType",
         "splashDamage": 47,
