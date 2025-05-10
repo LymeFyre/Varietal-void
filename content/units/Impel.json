@@ -2,7 +2,7 @@
   "type": "mech",
   "name": "Impel",
   "description": "Agile mech with sufficient armor and heavily armed with a shocking shotgun and automatic shock turrets,"
-  "speed": 1.9,
+  "speed": 1.4,
   "research": {
   "parent": "Xyv assembly"
   "requirement": [
@@ -16,9 +16,10 @@
   "rotateSpeed": 2,
   "weapons": [
     {
-      "name": "Shock-core-big"
+      "name": "Shock-core-big",
       "x": 0,
       "y": 0,
+      "top": false,
       "reload": 15,
       "recoil": 0,
       "inaccuracy": 0,
@@ -47,19 +48,20 @@
       "name": "Shock-gun-large",
       "x": 18,
       "y": 0,
-      "reload": 150,
+      "reload": 120,
       "top": false,
       "inaccuracy": 20,
       "shoot": {
       	"shots": 7,
-      }
+      },
       "bullet": {
         "type": "BasicBulletType",
-        "splashDamage": 27,
+        "splashDamage": 36,
         "splashDamageRadius": 16,
-        "lifetime": 150,
-        "speed": 10,
-        "drag": 0.1,
+        "lifetime": 90,
+        "shrinkY": 0,
+        "speed": 4,
+        "drag": 0.05,
         "width": 8,
         "height": 8,
         "lifeScaleRandMin": 0.5,
@@ -76,6 +78,39 @@
       "name": "Mounted-shock-gun",
       "x": 4,
       "y": 10,
+      "reload": 75,
+      "top": true,
+      "bullet": {
+        "type": "MissileBulletType",
+        "splashDamage": 47,
+        "splashDamageRadius": 24,
+        "lifetime": 75,
+        "speed": 2,
+        "acceleration": 0.05,
+        "width": 4,
+        "height": 12,
+        "frontColor": "ffffff",
+        "backColor": "ecf2aa",
+        "trailColor": "cbd980",
+        "intervalBullet": {
+          "type": "lightningBulletType",
+          "lightningLength": 4,
+          "damage": 12,
+          "lightningColor": "ecf2aa"
+        },
+        "bulletInterval": 12,
+        "intervalAngle": 180,
+        "intervalRandomSpread": 0,
+        "lightning": 3,
+        "lightningLength": 6,
+        "lightningDamage": 16,
+        "keepVelocity": false,
+      }
+    },
+    {
+      "name": "Mounted-shock-gun",
+      "x": 5,
+      "y": -4,
       "reload": 75,
       "top": true,
       "bullet": {
